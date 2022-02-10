@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="frm">
+<form action="#" method="get">
+<div>
+    <input type="text" name="username" id="user" placeholder="username" >
+    <span id="erroruser"></span>
+</div>
+<div>
+    <input type="password" name="pass" id="pass" placeholder="password">
+    <span id="errorpass"></span>
+</div>
+<div>
+    <input type="email" name="mail" id="mail" placeholder="Email" required>
+    <span id="erroremail"></span>
+</div>
+<div>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" >
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="male" >
+
+</div>
+<div>
+    <label for="approve"> Accept Terms:</label>
+    <input type="checkbox" id="approve" name="check" checked>
+</div>
+<div>
+    <button type="submit" id="sub" onclick="validator()">
+
+       send
+    </button>
+</div>
+
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

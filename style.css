@@ -1,0 +1,53 @@
+.frm{
+    width: 400px;
+    height: 300px;
+    margin: 150px auto;
+    background-color: #ef8b08;
+    border-radius: 20px;
+    box-shadow: 5px 5px #eabe0b;
+}
+#erroremail{
+    color: #d5064e;
+    font-size: 15px;
+}
+#errorpass{
+    color: red;
+    font-size: 15px;
+}
+#erroruser{
+    color: #d5064e;
+    font-size: 15px;
+}
+
+form input{
+    margin-top: 20px;
+    width: 140px;
+    border-radius: 5px;
+   margin-left: 15px;
+
+}
+label{
+    margin-left: 10px;
+}
+
+#approve{
+    margin-left: -45px;
+}
+#male{
+    margin-left: -60px;
+}
+#female{
+    margin-left: -60px;
+}
+#sub{
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
